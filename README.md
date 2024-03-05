@@ -24,7 +24,7 @@ We observed that interrupts improve the attacks success rate :
 `stress -d 1` or with `stress -i 1`
 
 For notebook CPUs it might occur, that one AVX instruction is not enough to warm up the unit.
-Thus, you need to warm it up a little stronger and using spectre make it "hot" and then measure the timing.
+Thus, you need to warm it up a little stronger and using Spectre make it "hot" and then measure the timing.
 
 Also it might occur that the timings of AVX shift in a certain way a little around. 
 
